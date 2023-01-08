@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portofolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mohamed Ahmed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, It's Me Mohamed</h2>
+                    <p class="hero_desc">I am a Software Engineer In Backend Based in Cairo Egypt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I'm A Software Engineer In Backend Graduated From Mechatronics Engineering at The German
+                        University in Cairo. I Have almost 1.5
+                        years of experience building websites with different aspects such as
+                    <ul>
+                        <li>E-Commerce Websites</li>
+                        <li>Educational Websites</li>
+                        <li>Dashboards</li>
+                    </ul>
+
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="experience">
+        <div class="container">
+            <h1 class="text-center">Experience</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body" onclick="window.open('https://www.lyrise.ai/', '_newtab')">
+                            <img src="images/LyRise-logoSmall.jpeg" class="lyriseImage" alt="">
+                            <h4 class="card-title mt-3">Testing Automation Engineer</h4>
+                            <h4 class="card-date mt-3">Jul 2021 - Oct 2021</h4>
+                            <p class="card-text mt-3">wroked on providing testing scripts to test the quality and the
+                                performance of the website using python as the programming language and Selenium as
+                                testing framework.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body" onclick="window.open('https://robustastudio.com/', '_newtab')">
+                            <img src="images/robustalogoSmall.jpeg" class="lyriseImage" alt="">
+                            <h4 class="card-title mt-3">Intern</h4>
+                            <h4 class="card-date mt-3">Aug 2021 - Oct 2021</h4>
+                            <p class="card-text mt-3">
+                                Introduced to Laravel Framework and contributed in some projects related to human
+                                resources .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body" onclick="window.open('https://www.lyrise.ai/', '_newtab')">
+                            <img src="images/LyRise-logoSmall.jpeg" class="lyriseImage" alt="">
+                            <h4 class="card-title mt-3">Software Engineer</h4>
+                            <h4 class="card-date mt-3">Nov 2021 - Apr 2022</h4>
+                            <p class="card-text mt-3">Contributed in Building Lyrise platform for hiring AI and Data
+                                Science talents .
+                                I worked mainly in the backend (Express Node.js) by developing services for the client
+                                side .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body" onclick="window.open('https://robustastudio.com/', '_newtab')">
+                            <img src="images/robustalogoSmall.jpeg" class="lyriseImage" alt="">
+                            <h4 class="card-title mt-3"> Backend Trainee </h4>
+                            <h4 class="card-date mt-3">Dec 2021 - Apr 2022</h4>
+                            <p class="card-text mt-3">
+                                Worked On Refactoring Internatl HR tools . Contributed in company meetings and sprints
+                                on a real world meetings worked on A Cinema Reservation app.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Udacity FullStack Nano Degree Final Project</h4>
+                            <p class="card-text">Deploying A Fullstack appliucation using circleci and aws services </p>
+                            <div class="text-center">
+                                <button type="button"
+                                    onclick="window.open('https://github.com/mohamedessmattawfik/hostingFullstackApplication', '_newtab')"
+                                    class="btn btn-outline-primary">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Social App</h4>
+                            <p class="card-text"> This is a task for Robusta Internship in order to make a demo of
+                                social applications which contains posts , comments and likes .</p>
+                            <div class="text-center">
+                                <button type="button"
+                                    onclick="window.open('https://github.com/mohamedessmattawfik/social_app', '_newtab')"
+                                    class="btn btn-outline-primary">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Energy Theft Detection</h4>
+                            <p class="card-text"> This is My Bachelor project code under the topic of enrgy theft
+                                Detection .</p>
+                            <div class="text-center">
+                                <button type="button"
+                                    onclick="window.open('https://github.com/mohamedessmattawfik/Energy_Theft_Detection', '_newtab')"
+                                    class="btn btn-outline-primary">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                        <div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe
+                                style="height:100%;width:100%;border:0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=Cairo,+Egypt&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div><a class="embed-map-html" href="https://www.bootstrapskins.com/themes"
+                            id="get-data-for-map">premium bootstrap themes</a>
+                        <style>
+                            #g-mapdisplay img {
+                                max-height: none;
+                                max-width: none !important;
+                                background: none !important;
+                            }
+
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+
+                    <button type="button" class="btn btn-success mt-3"
+                        onclick="window.open('mailto:mohamed.essmattawfik@gmail.com');">Contact Me</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://github.com/mohamedessmattawfik" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed244134/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
